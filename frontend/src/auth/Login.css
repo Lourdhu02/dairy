@@ -1,0 +1,106 @@
+.login-page{
+    overflow: hidden;
+}
+.login-container{
+    display: flex;
+}
+.login-left-box{
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login-left-box svg{
+    position: fixed;
+    width: 100%; 
+    height: 100%;
+    z-index: -999;
+
+}
+path {
+    fill: #A0E8AF;
+    animation:fluidWave 2s ease-in-out infinite;
+  }
+
+.app-head{
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #2d3a3a;
+}
+.app-side-head{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2d3a3a;
+
+}
+.login-right-box{
+    width: 60%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.login-form input{
+    width: 400px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 40px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #2d3a3a;
+}
+.login-form input::placeholder{
+    position: absolute;
+    visibility: visible;
+}
+.login-form input:focus::placeholder {
+    top: -3px;
+    font-size: 14px;
+    visibility: visible;
+    transition: all 0.5s;
+}
+
+.login-form button{
+    width: 410px;
+    padding: 15px;
+    outline: none;
+    margin: 10px 0px;
+    background-color: #2d3a3a;
+    color: #fcfffc;
+    border: none;
+    font-size: 18px;
+
+}
+.login-form button:hover{
+    background-color: #10451d;
+    color: #fcfffc;
+    transition: all 1s ;
+}
+.login-form a{
+    text-decoration: none;
+    color: #2d3a3a;
+}
+.auth-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.auth-head{
+    font-size: 32px;
+}
+.sign-link{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+

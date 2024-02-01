@@ -1,0 +1,85 @@
+.signup-page{
+    overflow: hidden;
+}
+.signup-container{
+    display: flex;
+}
+.signup-left-box{
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.signup-left-box svg{
+    position: absolute;
+    z-index: -999;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.signup-right-box{
+    width: 60%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.signup-form input{
+    width: 400px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 40px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #2d3a3a;
+}
+.signup-form input::placeholder{
+    position: absolute;
+    visibility: visible;
+}
+.signup-form input:focus::placeholder {
+    top: -3px;
+    font-size: 14px;
+    visibility: visible;
+    transition: all 0.5s;
+}
+
+.signup-form button{
+    width: 410px;
+    padding: 15px;
+    outline: none;
+    margin: 10px 0px;
+    background-color: #2d3a3a;
+    color: #fcfffc;
+    border: none;
+    font-size: 18px;
+
+}
+.signup-form button:hover{
+    background-color: #a0e8af;
+    color: #2d3a3a;
+    transition: all 0.5s;
+}
+.signup-form a{
+    text-decoration: none;
+    color: #2d3a3a;
+}
+.auth-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.auth-head{
+    font-size: 32px;
+}
+.login-link{
+    text-decoration: none;
+    font-size: 20px;
+}
