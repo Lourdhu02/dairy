@@ -36,7 +36,7 @@
     outline: none;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    border-bottom: 1px solid #2d3a3a;
+    border-bottom: 1px solid #1d3557;
 }
 .signup-form input::placeholder{
     position: absolute;
@@ -54,20 +54,20 @@
     padding: 15px;
     outline: none;
     margin: 10px 0px;
-    background-color: #2d3a3a;
+    background-color: #1d3557;
     color: #fcfffc;
     border: none;
     font-size: 18px;
 
 }
 .signup-form button:hover{
-    background-color: #a0e8af;
-    color: #2d3a3a;
+    background-color: #a8dadc;
+    color: #1d3557;
     transition: all 0.5s;
 }
 .signup-form a{
     text-decoration: none;
-    color: #2d3a3a;
+    color: #1d3557;
 }
 .auth-nav{
     display: flex;

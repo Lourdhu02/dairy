@@ -19,21 +19,17 @@
     z-index: -999;
 
 }
-path {
-    fill: #A0E8AF;
-    animation:fluidWave 2s ease-in-out infinite;
-  }
 
 .app-head{
     font-size: 72px;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #2d3a3a;
+    color: #1d3557;
 }
 .app-side-head{
     font-size: 16px;
     letter-spacing: 1px;
-    color: #2d3a3a;
+    color: #1d3557;
 
 }
 .login-right-box{
@@ -53,7 +49,7 @@ path {
     outline: none;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    border-bottom: 1px solid #2d3a3a;
+    border-bottom: 1px solid #1d3557;
 }
 .login-form input::placeholder{
     position: absolute;
@@ -71,20 +67,20 @@ path {
     padding: 15px;
     outline: none;
     margin: 10px 0px;
-    background-color: #2d3a3a;
-    color: #fcfffc;
+    background-color: #1d3557;
+    color: #f1faee;
     border: none;
     font-size: 18px;
 
 }
 .login-form button:hover{
-    background-color: #10451d;
-    color: #fcfffc;
+    background-color: #a8dadc;
+    color: #1d3557;
     transition: all 1s ;
 }
 .login-form a{
     text-decoration: none;
-    color: #2d3a3a;
+    color: #1d3557;
 }
 .auth-nav{
     display: flex;

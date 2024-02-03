@@ -1,0 +1,57 @@
+.expense-tracker-page{
+    display: grid;
+    width: 80%;
+    margin-left: 20%;
+}
+.expense-input{
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.input-section{
+    display: grid;
+    
+}
+.input-section input{
+    width: 500px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 30px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #1d3557;
+}
+.input-section button{
+    width: 510px;
+    padding: 10px;
+    outline: none;
+    margin: 10px 0px;
+    background-color: #1d3557;
+    color: #f1faee;
+    border: none;
+    font-size: 18px;
+}
+.transactions-view{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 5px 0px;
+}
+.description{
+    font-size: 24px;
+}
+.income{
+    font-size: 24px;
+}
+.history{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 150px;
+}

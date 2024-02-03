@@ -1,0 +1,52 @@
+.navbar-component{
+    overflow: hidden;
+    width: 20%;
+    background-color: whitesmoke;
+    height: 100vh;
+    position: fixed;
+}
+.navbar-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+
+}
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    color: #1d3557;
+    font-size: 100px;
+    border-radius: 50%;
+}
+.account-info{
+    font-size: 24px;
+    color: #457b9d;
+}
+.nav-links{
+    margin: 100px 0px;
+}
+.links{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 0px;
+    color: #1d3557;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.accounts{
+    color: #1d3557;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin: 5px 0px;
+}
+.log-out{
+    color: #1d3557;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin: 5px 0px;
+}
