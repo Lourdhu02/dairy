@@ -1,14 +1,31 @@
 import "./Login.css"
+import axios from "axios";
 import { useState } from "react";
 import {Link} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 const Login = () => {
-
+  const navigate = useNavigate();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    console.log('Logging in with:', { username, password });
+    try {
+      const response = await axios.post('http://localhost:5000/login', {
+        username: username,
+        password: password
+      });
+
+      if (response.data.message === 'Login successful') {
+        navigate('/home');
+      } else {
+        console.log('Login failed');
+        // Handle login failure (display error message, clear form fields, etc.)
+      }
+    } catch (error) {
+      console.error('Error logging in:', error);
+      // Handle error (display error message, retry login, etc.)
+    }
   };
 
   const handleForgotPassword = () => {

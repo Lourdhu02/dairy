@@ -8,8 +8,14 @@ import { RiLockPasswordLine } from 'react-icons/ri';
 import { LuGalleryHorizontalEnd } from 'react-icons/lu';
 import { MdOutlineFavoriteBorder } from 'react-icons/md';
 import "./Navbar.css"
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const navigate = useNavigate()
+ const handleLogout = () => {
+  navigate("/")
+  window.location.reload()
+ }
   return (
     <div className="navbar-component">
       <div className="navbar-container">
@@ -24,7 +30,7 @@ const Navbar = () => {
           <NavLink to="/password" className="links" activeClassName="active-link"><RiLockPasswordLine />Password Manager</NavLink>
         </div>
         <div className="accounts"><MdOutlineAccountCircle />Account</div>
-        <div className="log-out"><CiLogout />Logout</div>
+        <button onClick={handleLogout} className="links" ><CiLogout />Logout</button>
       </div>
     </div>
   );
